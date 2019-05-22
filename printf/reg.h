@@ -1,6 +1,6 @@
 #ifndef REG_H
 #define REG_H
-
+#define HEAP_MAX (64 * 1024) //64 KB
 //REG OPERATIONS
 #define UINT32_1 ((uint32_t)1)
 

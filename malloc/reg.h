@@ -1,6 +1,8 @@
 #ifndef REG_H
 #define REG_H
 
+#define HEAP_MAX (64 * 1024) //64 KB
+
 //REG OPERATIONS
 #define UINT32_1 ((uint32_t)1)
 
@@ -94,6 +96,8 @@
 #define GPIOx_AFRL_OFFSET 0x20
 #define AFRLy_3_BIT(y) ((y)*4 + 3)
 #define AFRLy_0_BIT(y) ((y)*4)
+#define AF_USART 7
+
 
 //EXTI
 #define EXTI_BASE 0x40013C00
